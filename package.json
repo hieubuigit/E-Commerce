@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "primeicons": "^7.0.0",
-    "primeng": "^17.18.0"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.4"
-  }
-}
