@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("e85518dd-3dae-4a2a-92e3-d31bf7ba3d82")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BE-E-Commerce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32b035155bd963b0cbe86c253a9362435ba620b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("BE-E-Commerce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BE-E-Commerce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
