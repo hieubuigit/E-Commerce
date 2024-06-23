@@ -1,5 +1,7 @@
 using BE_E_Commerce;
+using DbContext;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,7 @@ var connection = contStrBuilder.ConnectionString;
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<ECommerceContext>(options => options.UseSqlServer(connection));
 #endregion
 
 var app = builder.Build();
@@ -26,5 +29,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseRouting();
+app.MapControllers();
 
 app.Run();
