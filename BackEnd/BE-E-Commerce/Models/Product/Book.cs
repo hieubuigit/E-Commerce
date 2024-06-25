@@ -1,11 +1,14 @@
-﻿namespace BE_E_Commerce.Models;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
-public class Product
+namespace BE_E_Commerce.Models;
+
+public class Book
 {
-    public int Id { get; set; }
+    [BsonId]
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string? Id { get; set; }
     public string Name { get; set; }
-
-    #region Book attribute
     public Category Category { get; set; }
     public Partner Partner { get; set; }
     public int Page { get; set; }
@@ -13,8 +16,6 @@ public class Product
     public string Author { get; set; }
     public string Color { get; set; }
     public string Description { get; set; }
-    #endregion
-    
     public DateTime CreatedDate { get; set; }
     public DateTime? UpdatedDate { get; set; }
 } 

@@ -19,6 +19,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ECommerceContext>(options => options.UseSqlServer(connection));
 #endregion
 
+#region MongoDB
+
+builder.Services.Configure<ECommerceDatabaseSetting>(builder.Configuration.GetSection("MongoDB"));
+#endregion
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
