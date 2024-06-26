@@ -6152,6 +6152,7 @@
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.6",
+      "MongoDB.Driver >= 2.26.0",
       "MongoDB.EntityFrameworkCore >= 8.0.2",
       "Quartz >= 3.9.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
@@ -6215,6 +6216,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.6, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.26.0, )"
           },
           "MongoDB.EntityFrameworkCore": {
             "target": "Package",

@@ -1,4 +1,4 @@
-using BE_E_Commerce;
+using BE_E_Commerce.Services;
 using DbContext;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -17,10 +17,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ECommerceContext>(options => options.UseSqlServer(connection));
+builder.Services.AddSingleton<BookService>();
 #endregion
 
 #region MongoDB
-
 builder.Services.Configure<ECommerceDatabaseSetting>(builder.Configuration.GetSection("MongoDB"));
 #endregion
 
