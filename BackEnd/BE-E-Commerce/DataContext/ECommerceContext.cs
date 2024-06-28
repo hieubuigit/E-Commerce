@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using BE_E_Commerce.Models;
+﻿using BE_E_Commerce.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace DbContext;
+namespace BE_E_Commerce.DataContext;
 
 public partial class ECommerceContext : Microsoft.EntityFrameworkCore.DbContext
 {

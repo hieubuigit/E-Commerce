@@ -25,4 +25,13 @@
     <PackageReference Include="xunit" Version="2.8.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Admin\DTOs\" />
+    <Folder Include="Admin\Services\IRepositories\" />
+    <Folder Include="Admin\Services\Repositories\" />
+    <Folder Include="Admin\StoreProcedure\" />
+    <Folder Include="Admin\Utils\" />
+    <Folder Include="Client\" />
+  </ItemGroup>
+
 </Project>
