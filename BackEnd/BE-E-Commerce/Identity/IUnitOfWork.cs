@@ -1,6 +1,6 @@
-﻿using BE_E_Commerce.Indentity.Services.IRepositories;
+﻿using BE_E_Commerce.Identity.Services.IRepositories;
 
-namespace BE_E_Commerce.Indentity;
+namespace BE_E_Commerce.Identity;
 
 public interface IUnitOfWork
 {

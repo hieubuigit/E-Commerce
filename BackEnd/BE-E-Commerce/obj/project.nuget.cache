@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+DIdmLJ3I9mQ5QtMpx3G0T7J2df6tS/2Ni+qn1/mMPuZBsMkLchc/fhQreahLDEbUJeB2yjtbKBdr8JT6u2GFA==",
+  "dgSpecHash": "CCL/iunXHh+wQhY4hCZ79GKHPNx1WA1XXFWQkDOoqQHMKvn1lanIq2alC+duRciJ6Yp0JMNtyN2LhGbFfVJUjg==",
   "success": true,
   "projectFilePath": "D:\\My_workspace\\Personal Project\\E-Commerce\\BackEnd\\BE-E-Commerce\\BE-E-Commerce.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Hieu Bui\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Hieu Bui\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Hieu Bui\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Hieu Bui\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Hieu Bui\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Hieu Bui\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\Hieu Bui\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

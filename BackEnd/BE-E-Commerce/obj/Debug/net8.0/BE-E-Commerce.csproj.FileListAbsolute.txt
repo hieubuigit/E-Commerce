@@ -156,3 +156,4 @@ D:\My_workspace\Personal Project\E-Commerce\BackEnd\BE-E-Commerce\obj\Debug\net8
 D:\My_workspace\Personal Project\E-Commerce\BackEnd\BE-E-Commerce\obj\Debug\net8.0\BE-E-Commerce.pdb
 D:\My_workspace\Personal Project\E-Commerce\BackEnd\BE-E-Commerce\obj\Debug\net8.0\BE-E-Commerce.genruntimeconfig.cache
 D:\My_workspace\Personal Project\E-Commerce\BackEnd\BE-E-Commerce\obj\Debug\net8.0\ref\BE-E-Commerce.dll
+D:\My_workspace\Personal Project\E-Commerce\BackEnd\BE-E-Commerce\bin\Debug\net8.0\FluentValidation.dll

@@ -1,4 +1,6 @@
+using System.Reflection;
 using BE_E_Commerce.DataContext;
+using BE_E_Commerce.Identity;
 using BE_E_Commerce.Services;
 using DbContext;
 using Microsoft.Data.SqlClient;
@@ -19,6 +21,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ECommerceContext>(options => options.UseSqlServer(connection));
 builder.Services.AddSingleton<BookService>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+// builder.Services.AddFluentValidation(config => config.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly()));
 #endregion
 
 #region MongoDB
