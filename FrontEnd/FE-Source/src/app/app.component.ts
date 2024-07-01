@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
-import { TestApiServiceService } from './test/test-api-service.service';
+import { TestApiServiceService } from './chat-app/test-api-service.service';
 
 @Component({
   selector: 'app-root',
